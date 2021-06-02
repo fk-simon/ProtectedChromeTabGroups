@@ -1,9 +1,3 @@
-// DOCS
-// - https://developer.chrome.com/docs/extensions/reference/tabs/
-// - https://developer.chrome.com/docs/extensions/reference/tabGroups/
-// - https://developer.chrome.com/docs/extensions/mv3/background_pages/
-// - https://developer.chrome.com/docs/extensions/reference/storage/
-
 protected_groups = ["Base"]
 
 chrome.tabs.onCreated.addListener((newTab) => {
